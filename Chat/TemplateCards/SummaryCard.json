@@ -1,0 +1,95 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.3",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Cita",
+      "wrap": true,
+      "size": "ExtraLarge",
+      "weight": "Bolder"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Paciente:",
+              "wrap": true,
+              "id": "TilteName",
+              "size": "Medium",
+              "weight": "Bolder"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Especialidad:",
+              "wrap": true,
+              "id": "TitleService",
+              "size": "Medium",
+              "weight": "Bolder"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Odontologo:",
+              "wrap": true,
+              "id": "TitleDoctor",
+              "size": "Medium",
+              "weight": "Bolder"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Fecha:",
+              "wrap": true,
+              "size": "Medium",
+              "weight": "Bolder",
+              "id": "TitleFecha"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "New TextBlock",
+              "wrap": true,
+              "size": "Medium",
+              "weight": "Lighter",
+              "id": "Paciente"
+            },
+            {
+              "type": "TextBlock",
+              "text": "New TextBlock",
+              "wrap": true,
+              "size": "Medium",
+              "weight": "Lighter",
+              "id": "especialidad"
+            },
+            {
+              "type": "TextBlock",
+              "text": "New TextBlock",
+              "wrap": true,
+              "id": "doctor",
+              "size": "Medium",
+              "weight": "Lighter"
+            },
+            {
+              "type": "TextBlock",
+              "text": "New TextBlock",
+              "wrap": true,
+              "weight": "Lighter",
+              "size": "Medium",
+              "id": "fecha"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
